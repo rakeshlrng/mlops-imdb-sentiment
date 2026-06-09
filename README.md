@@ -2,5 +2,4 @@
 This is for mlops collaboration project
 <br>
 Author - Rakesh Kumar
-Testing
 
