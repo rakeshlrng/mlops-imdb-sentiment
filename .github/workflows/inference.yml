@@ -1,0 +1,1 @@
+#GitHub Actions inference workflow for the IMDB sentiment analysis project. This workflow runs on pushes to the main branch and pull requests, executing the inference script to validate predictions. It uses a Python environment with dependencies installed from requirements.txt, ensuring that the model can make predictions correctly in a CI/CD pipeline.
