@@ -1,10 +1,30 @@
+# Deep Learning & NLP
+torch
 transformers
 datasets
-torch
-scikit-learn
-pandas
-numpy
-wandb
-huggingface_hub
 accelerate
+#evaluate
+
+# Data Processing
+numpy
+pandas
+scikit-learn
+
+# Experiment Tracking
+wandb
+#mlflow
+
+# Hugging Face
+huggingface_hub
+
+# MLOps & Versioning
+#dvc
+
+# Utilities
+#pyyaml
+#joblib
+#python-dotenv
+#tqdm
+
+# Code Quality
 flake8
