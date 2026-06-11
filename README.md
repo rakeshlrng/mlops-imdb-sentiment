@@ -24,9 +24,14 @@ End-to-end MLOps project for binary sentiment classification on the [Stanford IM
 |----------|-----|
 | GitHub repository | https://github.com/rakeshlrng/mlops-imdb-sentiment |
 | Trained model (Hugging Face Hub) | https://huggingface.co/rakeshlrng/imdb-sentiment |
+| Trained model (Hugging Face Hub) | https://huggingface.co/IshaIIT/g25ait2084-imdb-sentiment |
 | Source dataset | https://huggingface.co/datasets/stanfordnlp/imdb |
 | Base model | https://huggingface.co/distilbert-base-uncased |
+| Training notebook v1 (Kaggle) | https://www.kaggle.com/code/rakeshcs123/training-v1 |
+| Training notebook v2 (Kaggle) | https://www.kaggle.com/code/rakeshcs123/training-v2 |
+| Training notebook v2 (Kaggle) | https://www.kaggle.com/code/rathodishag25ait2084/imdb_experiment_tracking.ipynb |
 | Experiment tracking (W&B) | https://wandb.ai (project: `mlops-imdb-sentiment`) |
+| Experiment tracking (W&B) | https://wandb.ai/rakeshlrng-iitj/mlops-imdb-sentiment |
 | CI workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/ci.yml |
 | Inference workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/inference.yml |
 
