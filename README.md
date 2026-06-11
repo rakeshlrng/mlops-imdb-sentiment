@@ -69,7 +69,8 @@ mlops-imdb-sentiment/
 │   └── inference.py       # Production inference entry point
 ├── notebooks/
 │   ├── training_v1.ipynb  # First training run (lr=3e-5)
-│   └── training_v2.ipynb  # Second run (lr=5e-5) — deployed model
+│   └── training_v2.ipynb  # Second run (lr=5e-5)
+|.  └── imdb_experiment_tracking.ipynb  # final run (lr=5e-5) — deployed model
 ├── artifacts/
 │   └── id2label.json      # Label mapping artefact
 ├── .github/workflows/
