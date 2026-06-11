@@ -23,14 +23,13 @@ End-to-end MLOps project for binary sentiment classification on the [Stanford IM
 | Resource | URL |
 |----------|-----|
 | GitHub repository | https://github.com/rakeshlrng/mlops-imdb-sentiment |
-| Trained model (Hugging Face Hub) | https://huggingface.co/rakeshlrng/imdb-sentiment |
+| Kaggle Training notebook v1 | https://www.kaggle.com/code/rakeshcs123/training-v1 |
+| Kaggle Training notebook v2 | https://www.kaggle.com/code/rakeshcs123/training-v2 |
+| Kaggle Training ml-opsgroupassignment | https://www.kaggle.com/code/rathodishag25ait2084/ml-opsgroupassignment |
 | Trained model (Hugging Face Hub) | https://huggingface.co/IshaIIT/g25ait2084-imdb-sentiment |
 | Source dataset | https://huggingface.co/datasets/stanfordnlp/imdb |
 | Base model | https://huggingface.co/distilbert-base-uncased |
-| Training notebook v1 (Kaggle) | https://www.kaggle.com/code/rakeshcs123/training-v1 |
-| Training notebook v2 (Kaggle) | https://www.kaggle.com/code/rakeshcs123/training-v2 |
-| Training notebook v2 (Kaggle) | https://www.kaggle.com/code/rathodishag25ait2084/imdb_experiment_tracking.ipynb |
-| Experiment tracking (W&B) | https://wandb.ai (project: `mlops-imdb-sentiment`) |
+| Experiment tracking (W&B) | https://wandb.ai/g25ait2084-iit/imdb-distilbert/overview |
 | Experiment tracking (W&B) | https://wandb.ai/rakeshlrng-iitj/mlops-imdb-sentiment |
 | CI workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/ci.yml |
 | Inference workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/inference.yml |
@@ -159,12 +158,11 @@ CI treats the model as an external dependency — it does not retrain. It valida
 |------|-------|
 | Task | Binary text classification (positive / negative) |
 | Base model | `distilbert-base-uncased` |
-| Deployed checkpoint | `rakeshlrng/imdb-sentiment` (from `training_v2`) |
-| Eval accuracy (v2) | 89.7% |
-| Eval F1 (v2) | 0.897 |
+| Deployed model | `IshaIIT/g25ait2084-imdb-sentiment` |
+| Eval accuracy (v3) | 91.0% |
+| Eval F1 (v3) | 0.9102 |
 
-v1 (lr `3e-5`) reached 88.9% accuracy; v2 (lr `5e-5`) reached 89.7%. v2 was selected for deployment. Rationale and hyperparameter details are in [`model/README.md`](model/README.md).
-
+v1 (lr 3e-5) achieved 88.9% accuracy, v2 (lr 5e-5) achieved 89.7% accuracy, and the final v3 run achieved 91.0% accuracy with an F1 score of 0.9102. Therefore, v3 was selected for deployment and published to Hugging Face Hub.
 ---
 
 ## Environment variables
