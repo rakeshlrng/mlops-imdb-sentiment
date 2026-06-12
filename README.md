@@ -25,7 +25,7 @@ End-to-end MLOps project for binary sentiment classification on the [Stanford IM
 | GitHub repository | https://github.com/rakeshlrng/mlops-imdb-sentiment |
 | Kaggle Training notebook v1 | https://www.kaggle.com/code/rakeshcs123/training-v1 |
 | Kaggle Training notebook v2 | https://www.kaggle.com/code/rakeshcs123/training-v2 |
-| Kaggle Training ml-opsgroupassignment | https://www.kaggle.com/code/rathodishag25ait2084/ml-opsgroupassignment |
+| Kaggle Training ml-ops-groupassignment (Final) | https://www.kaggle.com/code/rathodishag25ait2084/ml-ops-groupassignment|
 | Trained model (Hugging Face Hub) | https://huggingface.co/IshaIIT/g25ait2084-imdb-sentiment |
 | Source dataset | https://huggingface.co/datasets/stanfordnlp/imdb |
 | Base model | https://huggingface.co/distilbert-base-uncased |
