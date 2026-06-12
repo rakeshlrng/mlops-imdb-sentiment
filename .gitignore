@@ -219,3 +219,5 @@ __marimo__/
 
 # Local Env variables
 .env
+.DS_Store
+.vscode/
