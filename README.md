@@ -23,11 +23,14 @@ End-to-end MLOps project for binary sentiment classification on the [Stanford IM
 | Resource | URL |
 |----------|-----|
 | GitHub repository | https://github.com/rakeshlrng/mlops-imdb-sentiment |
-| Kaggle Training Notebook | https://www.kaggle.com/code/rathodishag25ait2084/ml-ops-groupassignment |
+| Kaggle Training notebook v1 | https://www.kaggle.com/code/rakeshcs123/training-v1 |
+| Kaggle Training notebook v2 | https://www.kaggle.com/code/rakeshcs123/training-v2 |
+| Kaggle Training ml-ops-groupassignment (Final) | https://www.kaggle.com/code/rathodishag25ait2084/ml-ops-groupassignment|
 | Trained model (Hugging Face Hub) | https://huggingface.co/IshaIIT/g25ait2084-imdb-sentiment |
 | Source dataset | https://huggingface.co/datasets/stanfordnlp/imdb |
 | Base model | https://huggingface.co/distilbert-base-uncased |
 | Experiment tracking (W&B) | https://wandb.ai/g25ait2084-iit/imdb-distilbert/overview |
+| Experiment tracking (W&B) | https://wandb.ai/rakeshlrng-iitj/mlops-imdb-sentiment |
 | CI workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/ci.yml |
 | Inference workflow | https://github.com/rakeshlrng/mlops-imdb-sentiment/actions/workflows/inference.yml |
 
@@ -66,7 +69,8 @@ mlops-imdb-sentiment/
 │   └── inference.py       # Production inference entry point
 ├── notebooks/
 │   ├── training_v1.ipynb  # First training run (lr=3e-5)
-│   └── training_v2.ipynb  # Second run (lr=5e-5) — deployed model
+│   └── training_v2.ipynb  # Second run (lr=5e-5)
+|.  └── imdb_experiment_tracking.ipynb  # final run (lr=5e-5) — deployed model
 ├── artifacts/
 │   └── id2label.json      # Label mapping artefact
 ├── .github/workflows/
